@@ -61,7 +61,7 @@ else()
 	add_library(easyloggingpp INTERFACE)
 endif()
 
-target_include_directories(easyloggingpp INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(easyloggingpp INTERFACE include)
 
 export(PACKAGE ${PROJECT_NAME})
 
