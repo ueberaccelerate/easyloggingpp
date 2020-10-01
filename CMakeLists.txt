@@ -61,7 +61,7 @@ else()
 	add_library(easyloggingpp INTERFACE)
 endif()
 
-target_include_directories(easyloggingpp INTERFACE include)
+target_include_directories(easyloggingpp INTERFACE src)
 
 export(PACKAGE ${PROJECT_NAME})
 
